@@ -1,0 +1,115 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -78.9546,
+        "lng": 67.9
+    },
+    "accuracy": 50,
+    "name": "LR Home",
+    "phone_number": "(+51) 344 567 7767",
+    "address": "Sibtrn dr",
+    "types": [
+        "shoe park",
+        "park"
+    ],
+    "website": "https:rahulshettyacademy.com",
+    "language": "French"
+}
+HTTP/1.1 200 OK
+Date: Tue, 24 May 2022 18:35:04 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "f309267cd4f80406cf9e12ae016d5dab",
+    "scope": "APP",
+    "reference": "147e3e12924754ce2aae6a740327f8c9147e3e12924754ce2aae6a740327f8c9",
+    "id": "147e3e12924754ce2aae6a740327f8c9"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=f309267cd4f80406cf9e12ae016d5dab
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=f309267cd4f80406cf9e12ae016d5dab
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 24 May 2022 18:35:07 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 232
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-78.9546",
+        "longitude": "67.9"
+    },
+    "accuracy": "50",
+    "name": "LR Home",
+    "phone_number": "(+51) 344 567 7767",
+    "address": "Sibtrn dr",
+    "types": "shoe park,park",
+    "website": "https:rahulshettyacademy.com",
+    "language": "French"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "f309267cd4f80406cf9e12ae016d5dab"
+}
+HTTP/1.1 200 OK
+Date: Tue, 24 May 2022 18:35:08 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}
